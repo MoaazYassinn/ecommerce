@@ -2,7 +2,7 @@ import slugify from "slugify";
 import { catchError } from "../../middleware/catchError.js";
 import { productModel } from "../../../database/models/product.model.js";
 import { deleteOne } from "../handle/handle.js";
-import { ApiFeature } from "../../utils/APIFeature.js";
+import { ApiFeature } from "../../utils/ApiFeature.js";
 
 
 

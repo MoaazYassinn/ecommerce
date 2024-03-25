@@ -1,7 +1,7 @@
 
 import { catchError } from "../../middleware/catchError.js";
 import { deleteOne } from "../handle/handle.js";
-import { ApiFeature } from "../../utils/APIFeature.js";
+import { ApiFeature } from "../../utils/ApiFeature.js";
 import { reviewModel } from "../../../database/models/review.model.js";
 import { AppError } from "../../utils/AppError.js";
 

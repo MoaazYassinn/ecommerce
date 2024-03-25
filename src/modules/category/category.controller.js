@@ -2,7 +2,7 @@ import { categoryModel } from "../../../database/models/category.model.js";
 import slugify from "slugify";
 import { catchError } from "../../middleware/catchError.js";
 import { deleteOne } from "../handle/handle.js";
-import { ApiFeature } from "../../utils/APIFeature.js";
+import { ApiFeature } from "../../utils/ApiFeature.js";
 
 
 const AddCategory=catchError(async(req,res,next)=>{

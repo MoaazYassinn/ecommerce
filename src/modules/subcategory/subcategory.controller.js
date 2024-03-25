@@ -3,7 +3,7 @@ import slugify from "slugify";
 import { catchError } from "../../middleware/catchError.js";
 import { subCategoryModel } from "../../../database/models/subCategory.model.js";
 import { deleteOne } from "../handle/handle.js";
-import { ApiFeature } from "../../utils/APIFeature.js";
+import { ApiFeature } from "../../utils/ApiFeature.js";
 
 
 const AddsubCategory=catchError(async(req,res,next)=>{

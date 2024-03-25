@@ -1,6 +1,6 @@
 import { userModel } from "../../../database/models/user.model.js";
 import { catchError } from "../../middleware/catchError.js";
-import { ApiFeature } from "../../utils/APIFeature.js";
+import { ApiFeature } from "../../utils/ApiFeature.js";
 import { deleteOne } from "../handle/handle.js";
 
 const AddUser=catchError(async(req,res,next)=>{
